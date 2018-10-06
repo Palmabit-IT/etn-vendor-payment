@@ -10,7 +10,7 @@ Features:
 ## Installation
 
 ```
-npm install
+npm install @palmabit/etn-vendor-payment
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ import './node_modules/etn-vendor-payment/index.js';
 
 Put the <etn-vendor-payment></etn-vendor-payment> component in your markup wherever you want it to appear.
 
-Exmaple:
+Example:
 
 ```
 <etn-vendor-payment outledId="5ba657721ca5b" paymentId="7ce25b4dc0" amount="100"></etn-vendor-payment>
