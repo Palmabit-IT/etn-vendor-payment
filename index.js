@@ -41,13 +41,8 @@ export default class EtnVendorPayment extends HTMLElement {
     if (!this.shadowRoot) {
       return
     }
-    this.removeChildrenElement('errors');
-    this.removeChildrenElement('qr');
 
-    if (this.amount <= 0) {
-      return this.renderError();
-    }
-    this.renderQr();
+    this.render();
   }
 
   connectedCallback() {
@@ -84,6 +79,16 @@ export default class EtnVendorPayment extends HTMLElement {
 
     content.appendChild(qrImg);
     qrElement.appendChild(content);
+  }
+
+  render() {
+    this.removeChildrenElement('errors');
+    this.removeChildrenElement('qr');
+
+    if (this.amount <= 0) {
+      return this.renderError();
+    }
+    this.renderQr();
   }
 
   removeChildrenElement(selector) {

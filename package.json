@@ -1,6 +1,6 @@
 {
   "name": "@palmabit/etn-vendor-payment",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A web component to generate Payment String as QR for Electroneum (ETN) instant payment API",
   "main": "index.js",
   "homepage": "https://github.com/Palmabit-IT/etn-vendor-payment",
