@@ -55,4 +55,4 @@ For more info see the ETN instant payment API docs: [etn api guide]()
 
 ## License
 
-MIT. See [LICENCE](./LICENCE)
+MIT. See [LICENSE](./LICENSE)
