@@ -48,6 +48,7 @@ export default class EtnVendorPayment extends HTMLElement {
   connectedCallback() {
     this.attachShadow({ mode: "open" });
     this.shadowRoot.appendChild(tmpl.content.cloneNode(true));
+    this.render();
   }
 
   buildPaymentString() {
