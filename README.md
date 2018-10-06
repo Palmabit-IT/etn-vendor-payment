@@ -31,6 +31,9 @@ Example:
 <etn-vendor-payment outledId="5ba657721ca5b" paymentId="7ce25b4dc0" amount="100"></etn-vendor-payment>
 ```
 
+Demo: [https://codepen.io/ffrancesco/pen/yRaEam](https://codepen.io/ffrancesco/pen/yRaEam)
+
+
 The payment string is made up of the following parameters:
 
 ```
