@@ -37,7 +37,7 @@ Demo: [https://codepen.io/ffrancesco/pen/yRaEam](https://codepen.io/ffrancesco/p
 The payment string is made up of the following parameters:
 
 ```
-{outletId}/{paymentIdd}/{amount}
+{outletId}/{paymentId}/{amount}
 ```
 
 For more info see the ETN instant payment API docs: [etn api guide](https://community.electroneum.com/t/using-the-etn-instant-payment-api/121)
